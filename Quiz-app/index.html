@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainpage" id="mnpg">
+        <div class="fpbox1" id="box">
+            <p id="box1">Quiz App</p>
+            <br>
+            <button id="quiz" onclick='start()'>Start Quiz</button>
+        </div>
+        <div class="fpbox2" id="box2">
+             <div class="ques" id="questionid">
+                <p id="quesid">Question</p>
+             </div>
+             <div class="ans" id="last">
+                <button id="opt1" class="opt" onclick="op1()">Answer 1</button>
+                <button id="opt2" class="opt" onclick="op2()">Answer 2</button>
+                <button id="opt3" class="opt" onclick="op3()">Answer 3</button>
+                <button id="opt4" class="opt" onclick="op4()">Answer 4</button>
+             </div>
+             <p id="scorevalue"> </p>
+             <button id="Submit" onclick="submit(update())">Confirm</button>
+        </div>
+    </div>
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
